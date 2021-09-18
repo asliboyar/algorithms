@@ -1,5 +1,5 @@
 #last 5 digits of the fibonacci number
-def fiblast5(n):
+def Last5ofFib(n):
   a=0
   b=0
   c=1
@@ -8,4 +8,4 @@ def fiblast5(n):
     b = c
     c = (a + b) % 100000
   return c
-print(fiblast5(99999999))
+print(Last5ofFib(99999999))
